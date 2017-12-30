@@ -100,8 +100,8 @@
                                 <mailssl>true</mailssl>
                                 <mailAltConfig>true</mailAltConfig>
                                 
-                                <mailuser>imitesting20@gmail.com</mailuser>
-                                <mailpassword>Selenium@123</mailpassword>
+                                <mailuser>email@gmail.com</mailuser>
+                                <mailpassword>xxxxx</mailpassword>
                                 <mailssl>true</mailssl>
                                 <receivers>
                                         <receiver>Shrikanth Test Lead</receiver>
