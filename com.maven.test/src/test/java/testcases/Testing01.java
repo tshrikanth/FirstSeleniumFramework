@@ -20,7 +20,7 @@ public class Testing01 extends BaseClass{
 	
 	ExtentTest logger;
 	
-	//We are starting the report logger
+	//We are starting the report logger in Before Method
 	
 	@BeforeMethod
 	public void setup() 
