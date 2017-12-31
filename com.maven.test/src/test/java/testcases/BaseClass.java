@@ -21,8 +21,8 @@ public class BaseClass {
 	@BeforeSuite
 	public void StartReport() {
 		
-		report = new ExtentReports("C:\\Users\\SRIKANTH HP\\Desktop\\Shrikanth\\workspace\\com.maven.test\\Reports\\"+System.currentTimeMillis()+".html");
-		//report = new ExtentReports(System.getProperty("user.dir")+"\\Reports\\"+System.currentTimeMillis()+".html");
+		//report = new ExtentReports("C:\\Users\\SRIKANTH HP\\Desktop\\Shrikanth\\workspace\\com.maven.test\\Reports\\"+System.currentTimeMillis()+".html");
+		report = new ExtentReports(System.getProperty("user.dir")+"\\Reports\\"+System.currentTimeMillis()+".html");
 	
 		}
 	

@@ -10,7 +10,7 @@ public class BrowserFactory {
 	public static WebDriver StartBrowser(String browser, String url) throws InterruptedException
 	{
 		if(browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\SRIKANTH HP\\Desktop\\Shrikanth\\workspace\\com.maven.test\\Drivers\\geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver","C:\\Users\\SRIKANTH HP\\Desktop\\Shrikanth\\workspace\\com.maven.test\\Drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		else
