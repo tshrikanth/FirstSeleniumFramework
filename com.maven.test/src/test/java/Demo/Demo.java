@@ -2,6 +2,8 @@ package Demo;
 
 import java.net.URL;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.BrowserType;
@@ -24,6 +26,7 @@ public class Demo {
 		driver.get("http://google.com");
 		
 		String title = driver.getTitle();
+		driver.findElement(By.id("top")).sendKeys(Keys.);
 		System.out.println("URL title is "+ title);
 	}
 	
